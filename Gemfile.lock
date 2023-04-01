@@ -15,12 +15,14 @@ GEM
       httparty (~> 0.0)
     method_source (0.8.2)
     multi_xml (0.6.0)
+    nio4r (2.5.8)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
     public_suffix (2.0.5)
-    puma (3.6.2)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
@@ -58,7 +60,7 @@ DEPENDENCIES
   json (~> 1.8.3)
   linode (~> 0.9.1)
   pry
-  puma (~> 3.6.2)
+  puma (~> 4.3.12)
   rake
   rspec
   sinatra (~> 1.4.7)
