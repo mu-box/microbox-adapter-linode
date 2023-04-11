@@ -29,8 +29,8 @@ end
 
 get '/' do
   content_type 'text/html'
-  'Linode API Adapter for Nanobox. ' \
-  'source: https://github.com/nanobox-io/nanobox-adapter-linode'
+  'Linode API Adapter for Microbox. ' \
+  'source: https://github.com/mu-box/microbox-adapter-linode'
 end
 
 get '/meta' do

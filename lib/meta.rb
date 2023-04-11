@@ -11,7 +11,7 @@ class Meta
         ssh_user:          'root',
         internal_iface:    'eth0:1',
         external_iface:    'eth0',
-        bootstrap_script:  'https://s3.amazonaws.com/tools.nanobox.io/bootstrap/ubuntu.sh',
+        bootstrap_script:  'https://s3.amazonaws.com/tools.microbox.cloud/bootstrap/ubuntu.sh',
         # options: reference, object
         ssh_key_method:    'object',
         can_reboot:        true,

@@ -1,4 +1,4 @@
-An implementation of the [Nanobox Custom Provider](https://docs.nanobox.io/providers/create/) spec for Linode.
+An implementation of the [Microbox Custom Provider](https://docs.microbox.cloud/providers/create/) spec for Linode.
 
 ## Development
 
@@ -9,7 +9,7 @@ An implementation of the [Nanobox Custom Provider](https://docs.nanobox.io/provi
 
 ### Local Evars
 A Linode API key is required to update the catalog files.
-`nanobox evar add local API_KEY=your_linode_api_key`
+`microbox evar add local API_KEY=your_linode_api_key`
 Update catalog config files.
 `bundle exec rake catalog:update`
 

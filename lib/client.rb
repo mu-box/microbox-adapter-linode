@@ -130,7 +130,7 @@ class Client
       LinodeID:       linode_id,
       # Ubuntu 16.04 LTS
       DistributionID: 146,
-      Label:          'nanobox-disk',
+      Label:          'microbox-disk',
       Size:           disk_size(size),
       rootSSHKey:     ssh_key,
       # never going to use this password, but it's required
@@ -143,7 +143,7 @@ class Client
       LinodeID: linode_id,
       Type:     'swap',
       Size:     swap_disk_size(size_id),
-      Label:    "nanobox-swap"
+      Label:    "microbox-swap"
     )
   end
 
@@ -152,7 +152,7 @@ class Client
       LinodeID: linode_id,
       # GRUB 2
       KernelID: 210,
-      Label: "nanobox-profile",
+      Label: "microbox-profile",
       DiskList: disks,
       helper_network: true
     )
